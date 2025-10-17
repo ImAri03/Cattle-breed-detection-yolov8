@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Amritmahal', 'Banni', 'Brown swiss cross', 'Deoni', 'Frieswal', 'Gir', 'Hallikar', 'Hariana', 'Holstein Friesian Cross', 'Jaffarabadi', 'Krishna valley', 'Malnad gidda', 'Murrah', 'Nili Ravi', 'Pulikulam', 'Sahiwal', 'Surti', 'ayrshire cross', 'jersery', 'khillari', 'verchur']
+
+roboflow:
+  workspace: cattle-ddm3j
+  project: cattle-zocu9
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cattle-ddm3j/cattle-zocu9/dataset/3
